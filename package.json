@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "migrate": "npx sequelize db:migrate",
-    "migrate-undo": "npx sequelize db:migrate:undo:all"
+    "migrate-undo": "npx sequelize db:migrate:undo:all",
+    "star":"node server.js"
   },
   "keywords": [],
   "author": "",
